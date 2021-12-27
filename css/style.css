@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: no-repeat url(https://media.istockphoto.com/photos/light-blue-watercolor-background-picture-id1301156172?b=1&k=20&m=1301156172&s=170667a&w=0&h=Ag7FeKGlohIwsKuJqTU180CL01lSGQieqEWv6mKK4n4=);
+    background-size: cover;
+    font-family: 'M PLUS 2', sans-serif;
+    
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 958px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    
+}
+
+.container:first-child{
+    text-align: center;
+}
+
+.auth-form{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    text-align: right;
+    width: 100%;
+}
+
+.field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.field:last-child{
+    margin-bottom: 0; 
+}
+
+.field>input{
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 1%;
+
+}
+
+.field:last-child>button{
+    padding: 10px;
+    color: #fff;
+    background-color: palevioletred;
+    border: 0;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.field:last-child>button:hover{
+    background-color: rgb(214, 45, 101);
+}
+
+.field:last-child{
+    text-align: center;
+}
+
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.pagination-block{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#previous-btn {
+    margin-right: 5px;
+}
+table{
+    width: 100%;
+    background: transparent;
+}
+.btn-delete{
+    background-color: #9093c4;
+    border-radius: 13%;
+}
+.btn-update{
+    background-color: #c987b5;
+    border-radius: 13%;
+}
+
+th{
+    background-color: #5c8dc6;
+    color: rgb(247, 247, 196)
+}
+tr{
+    background-color: #a9c7e5;
+    font-size: 20px;
+}
+h2{
+    color: #20426c;
+    font-weight: 700;
+    margin: 3%;
+}
+#add{
+    display: flex;
+    
+}
+.container-fluid{
+    background: transparent;
+}
+
+/* @media all and (min-width: 660px){
+    .container{
+        width: 50%
+    }
+} */
